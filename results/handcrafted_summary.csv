@@ -1,0 +1,4 @@
+modelo,representacao,macro_f1
+Logistic Regression,handcrafted,0.5421202435556984
+Random Forest,handcrafted,0.49434712668746583
+SVM,handcrafted,0.3891332777949499

@@ -1,0 +1,16 @@
+modelo,representacao,fold,accuracy,macro_f1,hiperparametros
+Logistic Regression,handcrafted,0,0.6,0.5989974937343359,default
+Logistic Regression,handcrafted,1,0.4270833333333333,0.42652329749103945,default
+Logistic Regression,handcrafted,2,0.5257731958762887,0.5253191489361702,default
+Logistic Regression,handcrafted,3,0.5,0.49793695329262255,default
+Logistic Regression,handcrafted,4,0.6623376623376623,0.6618243243243244,default
+Random Forest,handcrafted,0,0.4375,0.43670787044281023,default
+Random Forest,handcrafted,1,0.5520833333333334,0.5516454871293581,default
+Random Forest,handcrafted,2,0.4536082474226804,0.4498662386302836,default
+Random Forest,handcrafted,3,0.5769230769230769,0.5734879867439934,default
+Random Forest,handcrafted,4,0.4805194805194805,0.4600280504908836,default
+SVM,handcrafted,0,0.4625,0.3811836661270013,default
+SVM,handcrafted,1,0.4791666666666667,0.45029775538250116,default
+SVM,handcrafted,2,0.5154639175257731,0.3401360544217687,default
+SVM,handcrafted,3,0.46153846153846156,0.4436141304347826,default
+SVM,handcrafted,4,0.4935064935064935,0.33043478260869563,default
