@@ -1,0 +1,9 @@
+familia,modelo,input_variant,hiperparametros,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,label
+Handcrafted,SVM,features,default,0.489,0.069,0.469,0.067,SVM
+Handcrafted,Random Forest,features,default,0.488,0.046,0.485,0.044,Random Forest
+Handcrafted,Logistic Regression,features,default,0.529,0.065,0.525,0.066,Logistic Regression
+TF-IDF,Logistic Regression,pergunta_resposta,"{'clf__C': 10, 'tfidf__ngram_range': (1, 1)}",0.567,0.059,0.566,0.06,Logistic Regression [pergunta_resposta]
+TF-IDF,Linear SVM,pergunta_resposta,"{'clf__C': 10, 'tfidf__ngram_range': (1, 1)}",0.573,0.044,0.571,0.044,Linear SVM [pergunta_resposta]
+Embeddings,e5,pergunta_resposta,C=0.001,0.588,0.075,0.576,0.078,e5 [pergunta_resposta]
+Embeddings,bertimbau,tema_pergunta,C=0.1,0.581,0.039,0.576,0.043,bertimbau [tema_pergunta]
+TF-IDF,Naive Bayes,pergunta,"{'clf__alpha': 0.5, 'tfidf__ngram_range': (1, 1)}",0.581,0.04,0.577,0.039,Naive Bayes [pergunta]

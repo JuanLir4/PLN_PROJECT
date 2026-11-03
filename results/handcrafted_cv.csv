@@ -1,16 +1,16 @@
-modelo,representacao,fold,accuracy,macro_f1,hiperparametros
-Logistic Regression,handcrafted,0,0.6,0.5989974937343359,default
-Logistic Regression,handcrafted,1,0.4270833333333333,0.42652329749103945,default
-Logistic Regression,handcrafted,2,0.5257731958762887,0.5253191489361702,default
-Logistic Regression,handcrafted,3,0.5,0.49793695329262255,default
-Logistic Regression,handcrafted,4,0.6623376623376623,0.6618243243243244,default
-Random Forest,handcrafted,0,0.4375,0.43670787044281023,default
-Random Forest,handcrafted,1,0.5520833333333334,0.5516454871293581,default
-Random Forest,handcrafted,2,0.4536082474226804,0.4498662386302836,default
-Random Forest,handcrafted,3,0.5769230769230769,0.5734879867439934,default
-Random Forest,handcrafted,4,0.4805194805194805,0.4600280504908836,default
-SVM,handcrafted,0,0.4625,0.3811836661270013,default
-SVM,handcrafted,1,0.4791666666666667,0.45029775538250116,default
-SVM,handcrafted,2,0.5154639175257731,0.3401360544217687,default
-SVM,handcrafted,3,0.46153846153846156,0.4436141304347826,default
-SVM,handcrafted,4,0.4935064935064935,0.33043478260869563,default
+modelo,representacao,classificador,input_variant,fold,accuracy,macro_f1,hiperparametros
+Logistic Regression,handcrafted,Logistic Regression,features,0,0.625,0.6216748768472906,default
+Logistic Regression,handcrafted,Logistic Regression,features,1,0.4805194805194805,0.47619047619047616,default
+Logistic Regression,handcrafted,Logistic Regression,features,2,0.5645161290322581,0.5634941329856584,default
+Logistic Regression,handcrafted,Logistic Regression,features,3,0.46774193548387094,0.4642576590730558,default
+Logistic Regression,handcrafted,Logistic Regression,features,4,0.5064935064935064,0.4996580027359781,default
+Random Forest,handcrafted,Random Forest,features,0,0.46875,0.4666666666666667,default
+Random Forest,handcrafted,Random Forest,features,1,0.4805194805194805,0.47831978319783197,default
+Random Forest,handcrafted,Random Forest,features,2,0.5483870967741935,0.5441176470588236,default
+Random Forest,handcrafted,Random Forest,features,3,0.5161290322580645,0.5079365079365079,default
+Random Forest,handcrafted,Random Forest,features,4,0.42857142857142855,0.4284750337381916,default
+SVM,handcrafted,SVM,features,0,0.4375,0.38918345705196183,default
+SVM,handcrafted,SVM,features,1,0.5194805194805194,0.5191561181434599,default
+SVM,handcrafted,SVM,features,2,0.5967741935483871,0.5549813379270744,default
+SVM,handcrafted,SVM,features,3,0.45161290322580644,0.4423280423280423,default
+SVM,handcrafted,SVM,features,4,0.44155844155844154,0.44118143459915615,default

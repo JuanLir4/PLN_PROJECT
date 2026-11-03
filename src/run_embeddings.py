@@ -14,7 +14,7 @@ MODELS = {
     "e5": ("intfloat/multilingual-e5-base", "query: "),
     "bertimbau": ("neuralmind/bert-base-portuguese-cased", ""),
 }
-VARIANTS = ["pergunta", "tema_pergunta", "resposta", "pergunta_resposta"]
+VARIANTS = ["pergunta", "tema_pergunta", "resposta", "pergunta_resposta", "tema_pergunta_resposta"]
 C_VALUES = [0.001, 0.01, 0.1]
 
 tr, te = load_train(), load_test()
@@ -36,6 +36,7 @@ for model_name, (hf_id, prefix) in MODELS.items():
             "tema_pergunta": t + " " + p,
             "resposta": r,
             "pergunta_resposta": p + " " + r,
+            "tema_pergunta_resposta": t + " " + p + " " + r,
         }[variant]
 
         

@@ -1,6 +1,18 @@
-,accuracy,accuracy,macro_f1,macro_f1
-,mean,std,mean,std
-modelo,,,,
-Linear SVM,0.565,0.026,0.562,0.024
-Logistic Regression,0.561,0.046,0.554,0.045
-Naive Bayes,0.543,0.033,0.537,0.034
+,,accuracy,accuracy,macro_f1,macro_f1
+,,mean,std,mean,std
+input_variant,modelo,,,,
+pergunta,Linear SVM,0.568,0.048,0.565,0.048
+pergunta,Logistic Regression,0.562,0.048,0.559,0.049
+pergunta,Naive Bayes,0.581,0.04,0.577,0.039
+pergunta_resposta,Linear SVM,0.573,0.044,0.571,0.044
+pergunta_resposta,Logistic Regression,0.567,0.059,0.566,0.06
+pergunta_resposta,Naive Bayes,0.571,0.038,0.567,0.038
+resposta,Linear SVM,0.492,0.048,0.457,0.048
+resposta,Logistic Regression,0.489,0.049,0.456,0.046
+resposta,Naive Bayes,0.511,0.059,0.479,0.069
+tema_pergunta,Linear SVM,0.555,0.051,0.549,0.056
+tema_pergunta,Logistic Regression,0.551,0.055,0.547,0.057
+tema_pergunta,Naive Bayes,0.536,0.046,0.523,0.049
+tema_pergunta_resposta,Linear SVM,0.556,0.058,0.554,0.058
+tema_pergunta_resposta,Logistic Regression,0.558,0.058,0.555,0.057
+tema_pergunta_resposta,Naive Bayes,0.555,0.075,0.542,0.074
